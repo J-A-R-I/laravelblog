@@ -2,9 +2,9 @@
 
 # clone 
 ``
-git clone https://github.com/syntraprogrammeurs/laravelblogklas2026.git laravelblogclone
+git clone https://github.com/syntraprogrammeurs/laravelblogklas2026.git laravelblog
 ``
-naar directory 
+move naar directory 
 
 ``
 npm install
@@ -33,13 +33,13 @@ php artisan db:seed
 ## artisan 
 
 ## faker 
-create nep data met 
+create nep data met faker 
 ## database
-1 op veel 
+altijd 1 op veel relatie proberen aanhouden
 
 ## controler
 
-php artisan make:controller --resource < modelnaam + Controller>
+php artisan make:controller --resource <modelnaam + Controller>
 
 ## Route 
  Route::get =  iedereen kan erbij
