@@ -16,19 +16,18 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         //
-        DB::table('users')->insert(
-            [
-                'name' => 'Jari',
-                'role_id' => '1',
-                'is_active' => '1',
-                'email' => 'vandeputja@gmail.com',
-                'email_verified_at' => Carbon::now(),
-                'foto-id' => '1',
-                'password' => Hash::make('12345678'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ]
-        );
+        DB::table('users')->insert([
+            'name' => 'Tom',
+            'role_id' => 1,
+            'is_active' => 1,
+            'email' => 'syntraprogrammeurs@gmail.com',
+            'email_verified_at' => Carbon::now(),
+            'photo_id' => 1,
+            'password' => Hash::make('12345678'),
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
         User::factory()->count(50)->create();
     }
 }

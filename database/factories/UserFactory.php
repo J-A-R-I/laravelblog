@@ -35,7 +35,8 @@ class UserFactory extends Factory
             'two_factor_confirmed_at' => null,
             'role_id' => Role::inRandomOrder()->first()->id ?? 1,
             'is_active' => fake()->boolean(),
-            'foto-id' => 1,
+            'photo_id' => 1,
+
         ];
     }
 

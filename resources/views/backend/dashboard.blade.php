@@ -7,13 +7,17 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Dashboard - SB Admin</title>
-    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet"/>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    @vite(['resources/css/styles.css', 'resources/js/app.js'])
+
+{{--    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />--}}
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+{{--    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>--}}
 </head>
 <body class="sb-nav-fixed">
 <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
     <!-- Navbar Brand-->
-    <a class="navbar-brand ps-3" href="/backend">Start Bootstrap</a>
+    <a class="navbar-brand ps-3" href="index.html">Start Bootstrap</a>
     <!-- Sidebar Toggle-->
     <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
     <!-- Navbar Search-->
@@ -42,7 +46,7 @@
             <div class="sb-sidenav-menu">
                 <div class="nav">
                     <div class="sb-sidenav-menu-heading">Core</div>
-                    <a class="nav-link" href="/backend">
+                    <a class="nav-link" href="index.html">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Dashboard
                     </a>
@@ -54,8 +58,8 @@
                     </a>
                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
-                            <a class="nav-link" href="../../../../Users/papan/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/layout-static.html">Static Navigation</a>
-                            <a class="nav-link" href="../../../../Users/papan/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/layout-sidenav-light.html">Light Sidenav</a>
+                            <a class="nav-link" href="../../../../Users/Tom%20Vanhoutte/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/layout-static.html">Static Navigation</a>
+                            <a class="nav-link" href="../../../../Users/Tom%20Vanhoutte/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/layout-sidenav-light.html">Light Sidenav</a>
                         </nav>
                     </div>
                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
@@ -71,9 +75,9 @@
                             </a>
                             <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="../../../../Users/papan/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/login.html">Login</a>
-                                    <a class="nav-link" href="../../../../Users/papan/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/register.html">Register</a>
-                                    <a class="nav-link" href="../../../../Users/papan/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/password.html">Forgot Password</a>
+                                    <a class="nav-link" href="../../../../Users/Tom%20Vanhoutte/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/login.html">Login</a>
+                                    <a class="nav-link" href="../../../../Users/Tom%20Vanhoutte/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/register.html">Register</a>
+                                    <a class="nav-link" href="../../../../Users/Tom%20Vanhoutte/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/password.html">Forgot Password</a>
                                 </nav>
                             </div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
@@ -82,19 +86,19 @@
                             </a>
                             <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="../../../../Users/papan/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/401.html">401 Page</a>
-                                    <a class="nav-link" href="../../../../Users/papan/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/404.html">404 Page</a>
-                                    <a class="nav-link" href="../../../../Users/papan/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/500.html">500 Page</a>
+                                    <a class="nav-link" href="../../../../Users/Tom%20Vanhoutte/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/401.html">401 Page</a>
+                                    <a class="nav-link" href="../../../../Users/Tom%20Vanhoutte/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/404.html">404 Page</a>
+                                    <a class="nav-link" href="../../../../Users/Tom%20Vanhoutte/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/500.html">500 Page</a>
                                 </nav>
                             </div>
                         </nav>
                     </div>
                     <div class="sb-sidenav-menu-heading">Addons</div>
-                    <a class="nav-link" href="../../../../Users/papan/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/charts.html">
+                    <a class="nav-link" href="../../../../Users/Tom%20Vanhoutte/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/charts.html">
                         <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                         Charts
                     </a>
-                    <a class="nav-link" href="../../../../Users/papan/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/tables.html">
+                    <a class="nav-link" href="../../../../Users/Tom%20Vanhoutte/Downloads/startbootstrap-sb-admin-gh-pages/startbootstrap-sb-admin-gh-pages/tables.html">
                         <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                         Tables
                     </a>
@@ -675,20 +679,22 @@
         </footer>
     </div>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"></script>
-
+<!-- Bootstrap -->
 {{--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>--}}
 
 
-{{--<script src="js/scripts.js"></script>--}}
-{{--<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>--}}
-{{--<script src="assets/demo/chart-area-demo.js"></script>--}}
-{{--<script src="assets/demo/chart-bar-demo.js"></script>--}}
+
+<!-- Chart.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
 
 
-{{--<script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>--}}
-{{--<script src="js/datatables-simple-demo.js"></script>--}}
+
+<!-- Simple Datatables -->
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+
+
+
+</script>
 </body>
 </html>
+

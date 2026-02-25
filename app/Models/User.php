@@ -26,9 +26,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'role_id', // word gemaakt door de foreignfor in de migration
+        'role_id', // wordt gemaakt door de foreignIdFor in de migration
         'is_active',
-        'foto-id',
+        'photo_id',
     ];
 
     /**

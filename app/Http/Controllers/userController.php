@@ -4,11 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class userController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
+
     public function index()
     {
         //
@@ -46,7 +47,6 @@ class userController extends Controller
     public function edit(string $id)
     {
         //
-        return view('backend.users.edit');
     }
 
     /**

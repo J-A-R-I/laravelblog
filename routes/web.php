@@ -13,9 +13,13 @@ Route::get('/backend', function () {
     return view('backend.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+
+
 Route::middleware(['auth'])->group(function(){
     Route::resource('/backend/users', UserController::class);
 });
+
+
 
 
 require __DIR__.'/settings.php';
